@@ -1,4 +1,3 @@
 <html>
-    <div> Hi, my first project </div>
-    <div> Git Project </div>    
+    <div> Hi, my first project </div>   
 </html>

@@ -1,7 +1,9 @@
 # Practice-Repo
 This repo is for practice purpose. 
 
-Today we have learnt :
+`Learnings:`
+
+*Date : 14 July*
 - What is git?
 - Git vs Github
 - Creating a new repo
@@ -13,4 +15,12 @@ Today we have learnt :
     - git clone <repo url>
     - git status 
     - git add 
-got
+
+*Date : 16 July*
+- Revised last class concepts
+- What is staging? 
+- Learnt command *git commit* 
+- Learnt about *git reset* to undo staged files 
+- Learnt about *git push* and *git pull*
+- Learnt command *git show <commit id>* to see the changes of specific commits 
+
