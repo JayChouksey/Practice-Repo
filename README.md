@@ -24,3 +24,11 @@ This repo is for practice purpose.
 - Learnt about *git push* and *git pull*
 - Learnt command *git show <commit id>* to see the changes of specific commits 
 
+*Date : 18 July*
+- Revised last class concepts
+- How to create new branches
+- How to commit from different branches
+- git switch <branch name> : to switch to different branch
+- git switch -c <new branch name> : for creating and switching simoltaneously 
+- git branch -m <new name of the branch> : to rename the branch
+
