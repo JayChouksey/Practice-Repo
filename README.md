@@ -32,3 +32,6 @@ This repo is for practice purpose.
 - git switch -c <new branch name> : for creating and switching simoltaneously 
 - git branch -m <new name of the branch> : to rename the branch
 
+*Date : 21 July, 2025
+- Revised previous class concepts
+- Learn about merge conflicts 
