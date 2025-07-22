@@ -53,3 +53,26 @@ This repo is for practice purpose.
 - git remote add <remote-name> <remote-link> : to add new remote
 - git remote remove <remote-name> 
 - git remote rename <remote-name> <new-remote-name>
+
+*Date : 22 July*
+- git reset --<flag> HEAD~1 : to undo previous changes and *it removes completely the last head* 
+    - soft : will undo all the changes and put them in staged area 
+    - mixed(default) : will undo all the changes them in unstaged area
+    - hard : will undo but remove all the changes
+    - hard origin/<branch> : want to undo your resets and match the remote 
+- git push --force origin <branch> : when head is behind but you are sure to merge code to remote 
+- git revert <commit-hash> : to undo all previous changes in form of new commit
+    - -n or --no-commit: Applies the changes to your working directory and index, but does not create a new commit.
+    - -e or --edit(default) : Opens the configured editor to allow you to modify the default commit message for the revert commit.
+    - --no-edit : Creates the revert commit with the default commit message without opening the editor.
+    - -m <parent-number> : Used when reverting a merge commit.
+    - Eg : 
+        - git revert HEAD : Revert the most recent commit.
+        - git revert a1b2c3d : Revert a specific commit by its hash
+        - git revert a1b2c3d --no-commit : Revert the changes of a commit without creating a new commit immediately
+        - git revert HEAD~3..HEAD : Revert a range of commits (from oldest to newest). This reverts the changes introduced by the last three commits.
+        - git revert -m 1 <merge-commit-hash> : Reverting a merge commit, specifying the parent to revert from
+- git checkout <file-name> : 
+    - discards all local changes to the provided file.
+    - works only for unstaged changes
+- type *:qa* : to come out of editor window in terminal  
