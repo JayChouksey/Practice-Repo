@@ -76,3 +76,11 @@ This repo is for practice purpose.
     - discards all local changes to the provided file.
     - works only for unstaged changes
 - type *:qa* : to come out of editor window in terminal  
+
+*Date : 05 August*
+- git stash :
+    - git stash -m <message>
+    - git stash pop
+    - git stash apply
+    - git stash list 
+- .gitignore file : it tells Git which files or directories to ignore 
