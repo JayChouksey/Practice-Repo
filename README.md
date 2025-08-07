@@ -94,3 +94,9 @@ This repo is for practice purpose.
     - git tag, git show, git push origin<tag>
 
 - Cherry-Pick : git cherry-pick <commit-hash>
+    - Pick multiple commits : git cherry-pick <hash1> <hash2> <hash3>
+    - Range of commits : git cherry-pick A^..B
+    - Abort cherry-pick : git cherry-pick --abort
+    - Continue after conflict : After resolving any conflicts
+        1. git add .
+        2. git cherry-pick --continue
