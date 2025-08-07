@@ -84,3 +84,13 @@ This repo is for practice purpose.
     - git stash apply
     - git stash list 
 - .gitignore file : it tells Git which files or directories to ignore 
+
+*Date : 07 August*
+- Tagging and Releases : tag is a Git reference to a specific commit, often used to mark important milestones like releases.
+    - Lightweight Tag : git tag v1.0.0 
+    - Annotated Tag : git tag -a v1.0.0 -m <msg>
+    - Creating, deleting, pushing tags
+    - Versionin projects with tags
+    - git tag, git show, git push origin<tag>
+
+- Cherry-Pick : git cherry-pick <commit-hash>
